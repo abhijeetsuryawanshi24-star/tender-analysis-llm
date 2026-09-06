@@ -1,0 +1,63 @@
+# Core Dependencies
+Python>=3.8
+
+# Web Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# LLM & NLP
+langgraph==0.0.18
+langchain==0.1.0
+langchain-community==0.0.10
+langchain-openai==0.0.6
+langgraph-cli==0.1.0
+llama-index==0.9.48
+sentence-transformers==2.2.2
+nltk==3.8.1
+spacy==3.7.2
+
+# Document Processing
+pypdf==3.17.1
+python-docx==0.8.11
+openpyxl==3.11.0
+Pillow==10.1.0
+pytesseract==0.3.10
+fitz==0.0.1
+PyMuPDF==1.23.8
+
+# Vector Databases
+pinecone-client==3.0.0
+chroma==0.4.24
+faiss-cpu==1.7.4
+
+# Data Processing
+pandas==2.1.3
+numpy==1.26.2
+scikit-learn==1.3.2
+
+# Utilities
+requests==2.31.0
+python-multipart==0.0.6
+python-dotenv==1.0.0
+loguru==0.7.2
+tqdm==4.66.1
+click==8.1.7
+
+# Database
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.9
+mongodb==4.6.0
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+
+# Development
+ipython==8.18.1
+jupyter==1.0.0
+black==23.12.1
+flake8==6.1.0
+isort==5.13.2
